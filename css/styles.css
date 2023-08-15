@@ -80,7 +80,7 @@ button{
 	margin-top: auto;
 	align-self: flex-end;
 	background-color: #ffffff;
-	transition: .3ms all ease-in-out;
+	transition: .2s all ease-in-out;
 }
 
 button:focus,
