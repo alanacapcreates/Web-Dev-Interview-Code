@@ -67,6 +67,9 @@ h1{
 .card-text-content h2{
 	margin-bottom: 1em;
 }
+.card-text-content p {
+	margin-bottom: 2em;
+}
 
 button{
 	font-size: 16px;
@@ -74,7 +77,6 @@ button{
 	padding: 10px 18px;
 	border: 2px solid #000000;
 	border-radius: 50px;
-	margin-top: 2em;
 	margin-top: auto;
 	align-self: flex-end;
 	background-color: #ffffff;
