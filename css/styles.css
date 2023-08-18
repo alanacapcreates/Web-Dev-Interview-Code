@@ -24,13 +24,11 @@ h1{
 
 .container{
 	width: 100%;
-	min-height: 100vh;
+	/* min-height: 100vh;-- resulted in the cards stretching to full vh */
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-
-	width: 100%;
+	/* justify-content: center; -- dont need this since the cards will flow naturally*/
 	gap: 2em;
 
 }
@@ -40,9 +38,10 @@ h1{
 
 .card{
 	position: relative;
-	width: 100%;
-	height: auto;
-	max-width: 40vw;
+	/* width: 100%; --dont need this. the cards will wrap naturally because of flex-wrap:wrap*/
+	/* height: auto; ----not needed*/
+	/* max-width: 40vw;  ----caused the card to be too wide at 1690px ++ */
+	width: calc(50% - 1em); 
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
