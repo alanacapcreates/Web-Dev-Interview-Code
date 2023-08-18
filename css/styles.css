@@ -41,7 +41,9 @@ h1{
 	/* width: 100%; --dont need this. the cards will wrap naturally because of flex-wrap:wrap*/
 	/* height: auto; ----not needed*/
 	/* max-width: 40vw;  ----caused the card to be too wide at 1690px ++ */
+
 	width: calc(50% - 1em); 
+	/* flex: 0 1 50%; <-- not sure why this wont work*/ 
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
